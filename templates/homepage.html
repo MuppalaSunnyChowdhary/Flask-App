@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+	<div class="row">
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2><i class="fa fa-graduation-cap" aria-hidden="true"></i> Students</h2>
+				</div>
+				<div class="panel-body">
+					<a href="/students/login/" class="btn btn-primary btn-lg">Student Login</a>
+					<a href="#" class="btn btn-success btn-lg">Sign up</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2><i class="fa fa-user-circle" aria-hidden="true"></i> Counselors</h2>
+				</div>
+				<div class="panel-body">
+					<a href="/counselors/login/" class="btn btn-primary btn-lg">Counselor Login</a>
+					<a href="#" class="btn btn-success btn-lg">Sign up</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- end row -->
+	<br/>
+	<br/>
+	<div class="row">
+		<div class="col-md-offset-4 col-md-4 text-center">
+			<img src="{{ url_for('static', filename='images/hoover_hawks.png') }}" title="Hoover Hawks" alt="Hoover Hawks" class="hawk-logo" width="300" />
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+.student-message {
+	background-color: #F5F5F5;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+  padding: 20px; 
+  margin-bottom: 10px;
+}
+
+
+.homepage h1 {	
+	color: #aa0000;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.homepage h1 a {
+	color: #F35B25;
+}
+
+.team-yellow {
+	color: #CCCC00;
+	font-weight: bold;
+}
+
+.header-continer{
+	background-color: #2A363B;
+}
+
+.footer {
+	  position: absolute;
+	  margin-top: 100px;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 60px;
+	  background-color: #f5f5f5;
+}
+
+img.hawk-logo {
+	width: 300px;
+}
+
+.message-report {
+	height: 400px;
+	width: 100%;
+	padding-left:0;
+	padding-top:0;
+	padding-bottom:0.4em;
+	padding-right: 0.4em;
+}
+
